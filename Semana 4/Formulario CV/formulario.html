@@ -1,9 +1,150 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CV</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h2>CV Form</h2>
+    <form>
+        <label for="fname">Nombres:</label><br>
+        <input type="text" id="fname" name="fname" value="" required><br>
+        
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" value="" required><br><br>
+        
+        <label for="bdate">Fecha de nacimiento:</label><br>
+        <input type="date" id="bdate" name="bdate" required><br><br>
+        
+        <label for="ocu">Ocupación:</label><br>
+        <input type="text" id="ocu" name="ocu" required><br><br>
+        
+        <label for="phone">Teléfono:</label><br>
+        <input type="text" id="phone" name="phone" required><br>
+        
+        <label for="mail">Correo:</label><br>
+        <input type="text" id="mail" name="mail" required><br><br>
+        
+        <label for="nacion">Nacionalidad:</label><br>
+        <select id="nacion" name="nacion" required>
+            <option value="">Seleccione nacionalidad</option>
+            <option value="usa">Estadounidense</option>
+            <option value="esp">Española</option>
+            <option value="mex">Mexicana</option>
+            <option value="per">Peruana</option>
+            <option value="chi">Chilena</option>
+            <option value="bol">Boliviana</option>
+            <option value="bra">Brasileña</option>
+            <option value="arg">Argentina</option>
+            <option value="ven">Venezolana</option>
+            <option value="ecu">Ecuatoriana</option>
+            <option value="uru">Uruguaya</option>
+        </select><br><br>
+        
+        <label for="nivel_ingles">Nivel de Inglés:</label><br>
+        <input type="radio" id="basic" name="nivel_ingles" value="basic">
+        <label for="basic">Básico</label><br>
+        
+        <input type="radio" id="intermediate" name="nivel_ingles" value="intermediate">
+        <label for="intermediate">Intermedio</label><br>
+        
+        <input type="radio" id="advanced" name="nivel_ingles" value="advanced">
+        <label for="advanced">Avanzado</label><br>
+        <br>
+         
+        <label for="lenguajes_programacion">Lenguajes de Programación:</label><br>
+        <select id="lenguajes_programacion" name="lenguajes_programacion[]" multiple>
+            <option>C++</option>
+            <option>Python</option>
+            <option>JavaScript</option>
+            <option>CSS</option>
+            <option>Java</option>
+            <option>Ruby</option>
+            <option>C#</option>
+            <option>Kotlin</option>
+            <option>Rust</option>
+            <option>PHP</option>
+        </select><br><br>
+        
+        <label for="aptitudes">Aptitudes:</label><br>
+        <input type="text" id="aptitudes" name="aptitudes" list="aptitudes_list" required>
+        <datalist id="aptitudes_list">
+            <option value="Trabajo en equipo">
+            <option value="Comunicación">
+            <option value="Resolución de problemas">
+            <option value="Creatividad">
+            <option value="Liderazgo">
+            <option value="Autonomia">
+            <option value="Intuición">
+            <option value="Concentración">
+            <option value="Empatía">
+        </datalist><br><br>
+        
+        <label for="Habilidades">Habilidades:</label><br>
+        <input type="checkbox" id="teamwork" name="Habilidades[]" value="teamwork">
+        <label for="programar">Programar</label><br>
+        
+        <input type="checkbox" id="communication" name="Habilidades[]" value="communication">
+        <label for="multilinguismo">Multilinguismo</label><br>
+        
+        <input type="checkbox" id="problem_solving" name="Habilidades[]" value="problem_solving">
+        <label for="problem_solving">Analisis de Datos</label><br>
+        
+        <input type="checkbox" id="creativity" name="Habilidades[]" value="creativity">
+        <label for="investigacion">Investigación</label><br>
+        
+        <input type="checkbox" id="leadership" name="Habilidades[]" value="leadership">
+        <label for="enseñanza">Enseñanza</label><br><br>
+        
 
-    </head>
-    <body>
+        <label for="perfil">Perfil:</label><br><br>
+        <textarea id="perfil" name="perfil" rows="5" cols="40" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        // Obtener el elemento select
+        var select = document.getElementById("nacion");
+        // Obtener todas las opciones
+        var options = select.options;
+        // Convertir las opciones a un array para poder ordenarlas
+        var optionsArray = Array.from(options);
+        // Ordenar las opciones alfabéticamente
+        optionsArray.sort(function(a, b) {
+            return a.text.localeCompare(b.text);
+        });
+        // Limpiar las opciones actuales del select
+        select.innerHTML = "";
+        // Agregar las opciones ordenadas al select
+        optionsArray.forEach(function(option) {
+            select.appendChild(option);
+        });
 
-    </body>
+        // Ordenar las opciones de la lista de lenguajes de programación
+        var selectLenguajes = document.getElementById("lenguajes_programacion");
+        var optionsLenguajes = selectLenguajes.options;
+        var optionsArrayLenguajes = Array.from(optionsLenguajes);
+        optionsArrayLenguajes.sort(function(a, b) {
+            return a.text.localeCompare(b.text);
+        });
+        selectLenguajes.innerHTML = "";
+        optionsArrayLenguajes.forEach(function(option) {
+            selectLenguajes.appendChild(option);
+        });
+
+        // Ordenar las opciones de la lista de aptitudes (datalist)
+        var datalistAptitudes = document.getElementById("aptitudes_list");
+        var optionsAptitudes = datalistAptitudes.options;
+        var optionsArrayAptitudes = Array.from(optionsAptitudes);
+        optionsArrayAptitudes.sort(function(a, b) {
+            return a.value.localeCompare(b.value);
+        });
+        datalistAptitudes.innerHTML = "";
+        optionsArrayAptitudes.forEach(function(option) {
+            datalistAptitudes.appendChild(option);
+        });
+    </script>
+  </body>
 </html>
