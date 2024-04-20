@@ -93,6 +93,6 @@ body {
   }
   
   #tasks li input[type="checkbox"] + span {
-    color: #321; /* Color del texto de la tarea */
+    color: #321;  /* Color del texto de la tarea */
   }
   
