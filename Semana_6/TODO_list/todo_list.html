@@ -2,38 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>DBP</title>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-   document.querySelector('#new-task').onsubmit = () => {
-   const cb = document.createElement("INPUT");
-cb.setAttribute("type", "checkbox");
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="todo_list.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('#new-task').onsubmit = (event) => {
+          event.preventDefault(); 
 
-            const li = document.createElement('li');
-            li.appendChild(cb);
-li.innerHTML += document.querySelector('#task').value;
+          const cb = document.createElement("input");
+          cb.setAttribute("type", "checkbox");
 
-            document.querySelector('#tasks').append(li);
+          const li = document.createElement('li');
+          li.appendChild(cb);
+          li.appendChild(document.createTextNode(document.querySelector('#task').value)); 
 
-            document.querySelector('#task').value = '';
+          const buttonEliminar = document.createElement('button');
+          buttonEliminar.textContent = 'X';
 
-            return false;
+          buttonEliminar.addEventListener('click', () => {
+            li.parentNode.removeChild(li);
+          });
+
+          li.appendChild(buttonEliminar);
+
+          document.querySelector('#tasks').appendChild(li); 
+
+          document.querySelector('#task').value = '';
+
+          return false;
         };
 
-    });
-    </script>
+        const buttonMarcarTodos = document.createElement('button');
+        buttonMarcarTodos.textContent = 'Marcar Todos';
 
+        buttonMarcarTodos.addEventListener('click', () => {
+          const checkboxes = document.querySelectorAll('#tasks input[type="checkbox"]');
+          checkboxes.forEach((checkbox) => {
+            checkbox.checked = true;
+          });
+        });
+
+        document.querySelector('#tasks').before(buttonMarcarTodos);
+      });
+    </script>
   </head>
   <body>
-    <p>Computer Science</p>
-<h1>Tasks</h1>
-<form id="new-task">
-        <input id="task" autocomplete="off"
-autofocus placeholder="New Task"
-type="text">
-        <input type="submit">
+    <p>Desarrollo Basado en Plataformas</p>
+    <h1>Tasks</h1>
+    <form id="new-task">
+      <input
+        id="task"
+        autocomplete="off"
+        autofocus
+        placeholder="New Task"
+        type="text"
+      />
+      <input type="submit" />
     </form>
-    <ol id="tasks">
-    </ol>
+    <ol id="tasks"></ol>
   </body>
 </html>
