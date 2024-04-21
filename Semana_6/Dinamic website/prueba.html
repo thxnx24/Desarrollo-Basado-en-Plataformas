@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="prueba.css">
+    </head>
+    <body>
+        <div class="Informacion de registro">
+            <h1>Formulario de Curriculum Vitae</h1>
+            <form action="procesar-formulario.php" method="post">
+                <div class="Informacion de Usuario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellidos" required>
+                </div>
+                <div class="Contacto">
+                    <label for="telefono">Telefono:</label>
+                    <input type="text" id="telefono" name="telefono" required><br>
+                    <label for="correo">Correo:</label>
+                    <input type="text" id="correo" name="correo" required><br>
+                </div>
+                <div class="Idiomas">
+                    <div class="language">
+                        <label for="language">Idioma:</label>
+                        <select class="language-select" name="language">
+                            <option value="ingles">Inglés</option>
+                            <option value="espanol">Español</option>
+                            <option value="frances">Francés</option>
+                            <option value="aleman">Alemán</option>
+                            <option value="ruso">Ruso</option>
+                            <!-- Agrega más opciones según sea necesario -->
+                        </select>
+                    </div>
+                    <div class="fluency">
+                        <label for="fluency">Nivel de fluidez - Idioma:</label>
+                        <select class="fluency-select" name="fluency">
+                            <option value="basico">Básico</option>
+                            <option value="intermedio">Intermedio</option>
+                            <option value="avanzado">Avanzado</option>
+                            <!-- Agrega más opciones según sea necesario -->
+                        </select>
+                    </div>
+                    <button type="button" id="agregar-idioma">Agregar otro idioma</button>
+                </div>
+                <div class="Aptitudes">
+                    <label for="aptitudes">Aptitudes:</label>
+                    <input type="checkbox" id="trabajo-en-equipo" name="trabajo-en-equipo" value="Trabajo en equipo">
+                    <label for="trabajo-en-equipo">Trabajo en equipo</label>
+                    <input type="checkbox" id="comunicacion" name="comunicacion" value="Comunicación">
+                    <label for="comunicacion">Comunicación</label>
+                    <input type="checkbox" id="resolucion-de-problemas" name="resolucion-de-problemas" value="Resolución de problemas">
+                    <label for="resolucion-de-problemas">Resolución de problemas</label>
+                    <input type="checkbox" id="creatividad" name="creatividad" value="Creatividad">
+                    <label for="creatividad">Creatividad</label>
+                    <input type="checkbox" id="liderazgo" name="liderazgo" value="Liderazgo">
+                    <label for="liderazgo">Liderazgo</label>
+                </div>
+                
+                <!-- Este botón permite al usuario agregar más aptitudes -->
+                <button type="button" id="agregar-aptitud">Agregar otra aptitud</button>
+                <div class="Habilidades">
+                    <label for="habilidades">Habilidades:</label>
+                    <input type="checkbox" id="habilidades1" name="habilidades[]" value="Trabajo en equipo">
+                    <label for="habilidades1">Trabajo en equipo</label>
+                    <input type="checkbox" id="habilidades2" name="habilidades[]" value="Comunicación">
+                    <label for="habilidades2">Comunicacion</label>
+                    <input type="checkbox" id="habilidades3" name="habilidades[]" value="Resolución de problemas">
+                    <label for="habilidades3">Resolucion de problemas</label>
+                    <input type="checkbox" id="habilidades4" name="habilidades[]" value="Creatividad">
+                    <label for="habilidades4">Creatividad</label>
+                    <input type="checkbox" id="habilidades5" name="habilidades[]" value="Liderazgo">
+                    <label for="habilidades5">Liderazgo</label><br>
+                </div>
+                <button type="button" id="agregar-habilidad">Agregar otra Habilidad</button>
+                <br><br>
+                <div Experiencia Laboral>
+                    <h3>Experiencia Laboral</h3>
+                    <div class="experiencia-laboral">
+                        <div class="trabajo">
+                            <label for="lugar-trabajo">Lugar de Trabajo:</label>
+                            <input type="text" class="lugar-trabajo" name="lugar-trabajo" required>
+                        </div>
+                        <div class="tiempo-trabajo">
+                            <label for="tiempo-trabajo">Tiempo Trabajado:</label>
+                            <input type="text" class="tiempo-trabajo" name="tiempo-trabajo" required>
+                        </div>
+                        <div class="puesto">
+                            <label for="puesto">Puesto:</label>
+                            <input type="text" class="puesto" name="puesto" required>
+                        </div>
+                    </div>
+                    <button type="button" id="agregar-experiencia">Agregar Experiencia Laboral</button>
+                </div>
+                <div Perfil>
+                    
+                </div>
+                
+                <div Formación>
+                    <h3>Formación</h3>
+                    <label for="tipo-formacion">Tipo de Formación:</label>
+                    <select id="tipo-formacion" name="tipo-formacion">
+                        <option value="colegio">Colegio</option>
+                        <option value="universidad">Universidad</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <div id="formulario-formacion"></div>
+                    <button type="button" id="agregar-informacion">Agregar Información</button>
+                </div>
+                <div class="Otros intereses">
+                    <h3>Otros Intereses</h3>
+                    <div class="contador-caracteres">
+                        <label for="intereses-adicionales"></label>
+                        <textarea id="intereses-adicionales" name="intereses-adicionales" rows="4" cols="50" maxlength="40" oninput="actualizarConteo()"></textarea>
+                        <p id="contador">0/40</p>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById('agregar-aptitud').addEventListener('click', function() {
+                        var nuevaAptitud = prompt("Ingrese la nueva aptitud:");
+                        if (nuevaAptitud) {
+                            var checkbox = document.createElement('input');
+                            checkbox.type = 'checkbox';
+                            checkbox.id = nuevaAptitud.toLowerCase().replace(/\s+/g, '-');
+                            checkbox.name = nuevaAptitud.toLowerCase().replace(/\s+/g, '-');
+                            checkbox.value = nuevaAptitud;
+                            var label = document.createElement('label');
+                            label.htmlFor = nuevaAptitud.toLowerCase().replace(/\s+/g, '-');
+                            label.appendChild(document.createTextNode(nuevaAptitud));
+                            var aptitudesDiv = document.querySelector('.Aptitudes');
+                            aptitudesDiv.appendChild(checkbox);
+                            aptitudesDiv.appendChild(label);
+                            aptitudesDiv.appendChild(document.createElement('br')); // Salto de línea
+                        }
+                    });
+                    document.getElementById('agregar-habilidad').addEventListener('click', function() {
+                        var nuevaHabilidad = prompt("Ingrese la nueva habilidad:");
+                        if (nuevaHabilidad) {
+                            var checkbox = document.createElement('input');
+                            checkbox.type = 'checkbox';
+                            checkbox.id = nuevaHabilidad.toLowerCase().replace(/\s+/g, '-');
+                            checkbox.name = nuevaHabilidad.toLowerCase().replace(/\s+/g, '-');
+                            checkbox.value = nuevaHabilidad;
+                            var label = document.createElement('label');
+                            label.htmlFor = nuevaHabilidad.toLowerCase().replace(/\s+/g, '-');
+                            label.appendChild(document.createTextNode(nuevaHabilidad));
+                            var habilidadesDiv = document.querySelector('.Habilidades');
+                            habilidadesDiv.appendChild(checkbox);
+                            habilidadesDiv.appendChild(label);
+                            habilidadesDiv.appendChild(document.createElement('br')); // Salto de línea
+                        }
+                    });
+                </script>
+                <script>
+                    function actualizarConteo() {
+                        var texto = document.getElementById("intereses-adicionales").value;
+                        var caracteresRestantes = 40 - texto.length;
+                        document.getElementById("contador").textContent = texto.length + "/" + 40;
+                    }
+                </script>
+                <script>
+                    document.getElementById('agregar-experiencia').addEventListener('click', function() {
+                        var experienciaLaboralDiv = document.querySelector('.experiencia-laboral');
+                        
+                        // Crear nuevos campos de experiencia laboral
+                        var nuevoTrabajo = document.createElement('div');
+                        nuevoTrabajo.classList.add('trabajo');
+                        nuevoTrabajo.innerHTML = `
+                            <label for="lugar-trabajo">Lugar de Trabajo:</label>
+                            <input type="text" class="lugar-trabajo" name="lugar-trabajo" required>
+                        `;
+                        
+                        var nuevoTiempoTrabajo = document.createElement('div');
+                        nuevoTiempoTrabajo.classList.add('tiempo-trabajo');
+                        nuevoTiempoTrabajo.innerHTML = `
+                            <label for="tiempo-trabajo">Tiempo Trabajado:</label>
+                            <input type="text" class="tiempo-trabajo" name="tiempo-trabajo" required>
+                        `;
+                        
+                        var nuevoPuesto = document.createElement('div');
+                        nuevoPuesto.classList.add('puesto');
+                        nuevoPuesto.innerHTML = `
+                            <label for="puesto">Puesto:</label>
+                            <input type="text" class="puesto" name="puesto" required>
+                        `;
+                        
+                        // Agregar los nuevos campos al contenedor de experiencia laboral
+                        experienciaLaboralDiv.appendChild(nuevoTrabajo);
+                        experienciaLaboralDiv.appendChild(nuevoTiempoTrabajo);
+                        experienciaLaboralDiv.appendChild(nuevoPuesto);
+                    });
+                </script>
+                <script>
+                    document.getElementById('agregar-informacion').addEventListener('click', function() {
+                        var tipoFormacion = document.getElementById('tipo-formacion').value;
+                        var formularioFormacion = document.getElementById('formulario-formacion');
+                
+                        // Crear formulario según el tipo de formación seleccionado
+                        if (tipoFormacion === 'colegio') {
+                            formularioFormacion.innerHTML += `
+                                <div class="colegio">
+                                    <label for="nombre-colegio">Colegio:</label>
+                                    <input type="text" id="nombre-colegio" name="nombre-colegio" required>
+                                    <label for="fecha-colegio">Fecha de inicio - Colegio:</label>
+                                    <input type="date" id="fecha-colegio" name="fecha-colegio" required>
+                                    <label for="fecha-fin-colegio">Fecha de fin - Colegio:</label>
+                                    <input type="date" id="fecha-fin-colegio" name="fecha-fin-colegio" required>
+                                    <label for="etapa-colegio">Etapa de formación - Colegio:</label>
+                                    <select id="etapa-colegio" name="etapa-colegio">
+                                        <option value="inicial">Educación Inicial</option>
+                                        <option value="primaria">Educación Primaria</option>
+                                        <option value="secundaria">Educación Secundaria</option>
+                                    </select>
+                                </div>
+                            `;
+                        } else if (tipoFormacion === 'universidad') {
+                            formularioFormacion.innerHTML += `
+                                <div class="universidad">
+                                    <label for="nombre-universidad">Universidad:</label>
+                                    <input type="text" id="nombre-universidad" name="nombre-universidad" required>
+                                    <label for="fecha-universidad">Fecha de inicio - Universidad:</label>
+                                    <input type="date" id="fecha-universidad" name="fecha-universidad" required>
+                                    <label for="fecha-fin-universidad">Fecha de fin - Universidad:</label>
+                                    <input type="date" id="fecha-fin-universidad" name="fecha-fin-universidad" required>
+                                    <label for="etapa-universidad">Etapa de formación - Universidad</label>
+                                    <select id="etapa-universidad" name="etapa-universidad">
+                                        <option value="bachillerato">Bachillerato</option>
+                                        <option value="maestro">Magíster</option>
+                                        <option value="doctor">Doctorado</option>
+                                    </select>
+                                </div>
+                            `;
+                        } else if (tipoFormacion === 'otro') {
+                            formularioFormacion.innerHTML += `
+                                <div class="otro">
+                                    <label for="nombre-otro">Otro tipo de formación:</label>
+                                    <input type="text" id="nombre-otro" name="nombre-otro" required>
+                                    <label for="fecha-otro">Fecha de inicio - Otro:</label>
+                                    <input type="date" id="fecha-otro" name="fecha-otro" required>
+                                    <!-- Agrega aquí los campos adicionales según tu necesidad -->
+                                </div>
+                            `;
+                        }
+                    });
+                </script>
+                <script>
+                    document.getElementById('agregar-idioma').addEventListener('click', function() {
+                        var idiomasDiv = document.querySelector('.Idiomas');
+                        
+                        var nuevoIdiomaDiv = document.createElement('div');
+                        nuevoIdiomaDiv.classList.add('language');
+                        
+                        var nuevoIdiomaLabel = document.createElement('label');
+                        nuevoIdiomaLabel.textContent = 'Idioma:';
+                        
+                        var nuevoIdiomaSelect = document.createElement('select');
+                        nuevoIdiomaSelect.classList.add('language-select');
+                        nuevoIdiomaSelect.name = 'language';
+                        // Aquí puedes agregar más opciones de idioma
+                        
+                        var fluidezDiv = document.createElement('div');
+                        fluidezDiv.classList.add('fluency');
+                        
+                        var fluidezLabel = document.createElement('label');
+                        fluidezLabel.textContent = 'Nivel de fluidez - Idioma:';
+                        
+                        var fluidezSelect = document.createElement('select');
+                        fluidezSelect.classList.add('fluency-select');
+                        fluidezSelect.name = 'fluency';
+                        // Aquí puedes agregar más opciones de nivel de fluidez
+                        
+                        // Agregar opciones de idioma
+                        var idiomas = ['ingles','italiano', 'portugues', 'chino', 'japones', 'ruso']; // Ejemplo de idiomas adicionales
+                        idiomas.forEach(function(idioma) {
+                            var option = document.createElement('option');
+                            option.value = idioma.toLowerCase();
+                            option.textContent = idioma.charAt(0).toUpperCase() + idioma.slice(1); // Capitalizar la primera letra
+                            nuevoIdiomaSelect.appendChild(option);
+                        });
+                        
+                        // Agregar opciones de nivel de fluidez
+                        var nivelesFluidez = ['principiante', 'intermedio' ,'avanzado']; // Ejemplo de niveles de fluidez adicionales
+                        nivelesFluidez.forEach(function(nivel) {
+                            var option = document.createElement('option');
+                            option.value = nivel.toLowerCase().replace(/\s+/g, '-');
+                            option.textContent = nivel.charAt(0).toUpperCase() + nivel.slice(1); // Capitalizar la primera letra
+                            fluidezSelect.appendChild(option);
+                        });
+                        
+                        nuevoIdiomaDiv.appendChild(nuevoIdiomaLabel);
+                        nuevoIdiomaDiv.appendChild(nuevoIdiomaSelect);
+                        fluidezDiv.appendChild(fluidezLabel);
+                        fluidezDiv.appendChild(fluidezSelect);
+                        
+                        idiomasDiv.insertBefore(nuevoIdiomaDiv, document.getElementById('agregar-idioma'));
+                        idiomasDiv.insertBefore(fluidezDiv, document.getElementById('agregar-idioma'));
+                    });
+                    
+                </script>
+            </form>
+        </div>
+    </body>
+</html>
