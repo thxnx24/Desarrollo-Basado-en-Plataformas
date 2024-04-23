@@ -1,18 +1,21 @@
-/*cuerpo*/
+/* Cuerpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    margin: 0; /* Asegúrate de eliminar el margen predeterminado */
+    padding: 0; /* Asegúrate de eliminar el padding predeterminado */
+    background-image: url('image_fondo2.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
 }
-/*formulario*/
+
+/* Formulario */
 form {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto; /* Ajusta el margen exterior para centrar el formulario */
     padding: 20px;
-    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
     text-align: center;
     color: #333;
