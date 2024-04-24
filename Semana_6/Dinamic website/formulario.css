@@ -22,7 +22,7 @@ h1 {
     margin-top: 0; /* Elimina el margen superior predeterminado */
     margin-bottom: 5px; /* Añade espacio debajo del título */
 }
-h2 {
+h3 {
     text-align: center;
     color: #333;
 }
@@ -57,3 +57,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+

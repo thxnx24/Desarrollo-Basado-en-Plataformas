@@ -1,20 +1,20 @@
 /*Se agrega mas experiencia laboral para el usuario*/
-document.getElementById('agregar-experiencia').addEventListener('click', function() {
-    var experienciaLaboralDiv = document.querySelector('.experiencia-laboral');
+document.getElementById('agregar_experiencia').addEventListener('click', function() {
+    var experienciaLaboralDiv = document.querySelector('.experiencia_laboral');
     
     // Crear nuevos campos de experiencia laboral
     var nuevoTrabajo = document.createElement('div');
     nuevoTrabajo.classList.add('trabajo');
     nuevoTrabajo.innerHTML = `
-        <label for="lugar-trabajo">Lugar de Trabajo:</label>
-        <input type="text" class="lugar-trabajo" name="lugar-trabajo" required>
+        <label for="lugar_trabajo">Lugar de Trabajo:</label>
+        <input type="text" class="lugar_trabajo" name="lugar_trabajo" required>
     `;
     
     var nuevoTiempoTrabajo = document.createElement('div');
-    nuevoTiempoTrabajo.classList.add('tiempo-trabajo');
+    nuevoTiempoTrabajo.classList.add('tiempo_trabajo');
     nuevoTiempoTrabajo.innerHTML = `
-        <label for="tiempo-trabajo">Tiempo Trabajado:</label>
-        <input type="text" class="tiempo-trabajo" name="tiempo-trabajo" required>
+        <label for="tiempo_trabajo">Tiempo Trabajado:</label>
+        <input type="text" class="tiempo_trabajo" name="tiempo_trabajo" required>
     `;
     
     var nuevoPuesto = document.createElement('div');

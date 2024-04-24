@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <div class="Informacion de registro">
+            <h1>Formulario de Curriculum Vitae</h1>
+            <form action="procesar_formulario.php" method="post">
+                <div class="informacion">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="Contacto">
+                    <label for="telefono">Telefono:</label>
+                    <input type="text" id="telefono" name="telefono" required><br>
+                    <label for="correo">Correo:</label>
+                    <input type="text" id="correo" name="correo" required><br>
+                </div>
+                <div class="Perfil">
+                    <h3>Perfil de Usuario</h3>
+                    <div class="contador_caracteres">
+                        <label for="perfil_adicionales"></label>
+                        <textarea id="perfil_adicionales" name="perfil_adicionales" rows="4" cols="50" maxlength="200" oninput="actualizarConteoperfil()"></textarea>
+                        <p id="contador_perfil">0/200</p>
+                    </div>
+                </div>
+                <div class="Idiomas">
+                    <div class="idioma">
+                        <label for="idioma">Idioma:</label>
+                        <select class="idioma_select" name="idioma">
+                            <option value="ingles">Ingles</option>
+                            <option value="espanol">Español</option>
+                            <option value="frances">Frances</option>
+                            <option value="aleman">Aleman</option>
+                            <option value="ruso">Ruso</option>
+                        </select>
+                    </div>
+                    <div class="nivel_idioma">
+                        <label for="nivel_idioma">Nivel de Idioma:</label>
+                        <select class="nivel_idioma_select" name="nivel_idioma">
+                            <option value="basico">Basico</option>
+                            <option value="intermedio">Intermedio</option>
+                            <option value="avanzado">Avanzado</option>
+                        </select>
+                    </div>
+                    <button type="button" id="agregar_idioma">Agregar otro idioma</button>
+                </div>
+                <div class="Aptitudes">
+                    <h3>Aptitudes:</h3>
+                    <input type="checkbox" id="aptitud1" name="aptitudes[]" value="Inteligencia emocional">
+                    <label for="aptitud1">Inteligencia emocional</label><br>
+                    <input type="checkbox" id="aptitud2" name="aptitudes[]" value="Espíritu crítico">
+                    <label for="aptitud2">Espíritu crítico</label><br>
+                    <input type="checkbox" id="aptitud3" name="aptitudes[]" value="Trabajo en equipo">
+                    <label for="aptitud3">Trabajo en equipo</label><br>
+                    <input type="checkbox" id="aptitud4" name="aptitudes[]" value="Capacidad analítica">
+                    <label for="aptitud4">Capacidad analítica</label><br>
+                    <input type="checkbox" id="aptitud5" name="aptitudes[]" value="Habilidades físicas">
+                    <label for="aptitud5">Habilidades físicas</label><br>
+                    <input type="checkbox" id="aptitud6" name="aptitudes[]" value="Pensamiento Computacional">
+                    <label for="aptitud5">Pensamiento Computacional</label><br>
+                </div>
+                    <button type="button" id="agregar_aptitudes">Agregar otra aptitud</button>
+                
+                <div class="Habilidades">
+                    <h3>Habilidades:</h3>
+                    <input type="checkbox" id="habilidades1" name="habilidades[]" value="Trabajo en equipo">
+                    <label for="habilidades1">Trabajo en equipo</label><br>
+                    <input type="checkbox" id="habilidades2" name="habilidades[]" value="Comunicación">
+                    <label for="habilidades2">Comunicacion</label><br>
+                    <input type="checkbox" id="habilidades3" name="habilidades[]" value="Resolución de problemas">
+                    <label for="habilidades3">Resolucion de problemas</label><br>
+                    <input type="checkbox" id="habilidades4" name="habilidades[]" value="Creatividad">
+                    <label for="habilidades4">Creatividad</label><br>
+                    <input type="checkbox" id="habilidades5" name="habilidades[]" value="Liderazgo">
+                    <label for="habilidades5">Liderazgo</label><br>
+                </div>
+                <button type="button" id="agregar_habilidad">Agregar otra Habilidad</button>
+                
+                <br><br>
+                
+                
+                <div class="experiencia_laboral">
+                    <h3>Experiencia Laboral:</h3>
+                        <div class="trabajo">
+                            <label for="lugar_trabajo">Lugar de Trabajo:</label>
+                            <input type="text" class="lugar_trabajo" name="lugar_trabajo" required>
+                        </div>
+                        <div class="tiempo_trabajo">
+                            <label for="tiempo_trabajo">Tiempo Trabajando:</label>
+                            <input type="text" class="tiempo_trabajo" name="tiempo_trabajo" required>
+                        </div>
+                        <div class="puesto">
+                            <label for="puesto">Puesto:</label>
+                            <input type="text" class="puesto" name="puesto" required>
+                        </div>
+                </div>
+                <button type="button" id="agregar_experiencia">Agregar Experiencia Laboral</button>
+                
+                <div class="Formacion">
+                    <h3>Formacion:</h3>
+                    <label for="tipo_formacion">Tipo de Formacion:</label>
+                    <select id="tipo_formacion" name="tipo_formacion">
+                        <option value="colegio">Colegio</option>
+                        <option value="universidad">Universidad</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <div id="formulario_formacion"></div>
+                    <button type="button" id="agregar_informacion">Agregar Informacion</button>
+                </div>
+
+                <div class="Otros intereses">
+                    <h3>Otros Intereses</h3>
+                    <div class="contador_intereses">
+                        <label for="intereses_adicionales"></label>
+                        <textarea id="intereses_adicionales" name="intereses_adicionales" rows="4" cols="50" maxlength="200" oninput="actualizarConteointereses()"></textarea>
+                        <p id="contador_intereses">0/200</p>
+                    </div> 
+                </div> 
+                <script src="agg_idioma.js"></script> 
+                <script src="agg_aptitudes.js"></script>
+                <script src="agg_habilidad.js"></script>
+                <script src="agg_experiencia.js"></script>
+                <script src="act_conteo_perfil.js"></script>
+                <script src="agg_formacion.js"></script>
+                <script src="act_conteo_intereses.js"></script>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

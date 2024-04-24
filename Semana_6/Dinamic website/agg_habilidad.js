@@ -1,4 +1,4 @@
-document.getElementById('agregar-habilidad').addEventListener('click', function() {
+document.getElementById('agregar_habilidad').addEventListener('click', function() {
     var nuevaHabilidad = prompt("Ingrese la nueva habilidad:");
     if (nuevaHabilidad) {
         var checkbox = document.createElement('input');

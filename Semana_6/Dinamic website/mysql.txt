@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS registros (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL,
+  apellidos VARCHAR(255) NOT NULL,
+  telefono VARCHAR(255) NOT NULL,
+  correo VARCHAR(255) NOT NULL,
+  perfil TEXT NOT NULL,
+  idioma TEXT NOT NULL,
+  nivel_idioma ENUM('Básico', 'Intermedio', 'Avanzado') NOT NULL,
+  aptitudes VARCHAR(255) NOT NULL,
+  habilidades VARCHAR(255) NOT NULL,
+  lugar_trabajo VARCHAR(255) NOT NULL,
+  tiempo_trabajo VARCHAR(255) NOT NULL,
+  puesto VARCHAR(255) NOT NULL,
+  tipo_formacion ENUM('Colegio', 'Universidad', 'Otro') DEFAULT NULL,
+  nombre_formacion VARCHAR(255) NOT NULL,
+  fecha_inicio_formacion DATE,
+  fecha_fin_formacion DATE,
+  etapa_colegio ENUM('Inicial', 'Primaria', 'Secundaria') DEFAULT NULL,
+  etapa_universidad ENUM('Bachillerato', 'Maestria', 'Doctorado') DEFAULT NULL,
+  intereses_adicionales TEXT DEFAULT NULL
+);
