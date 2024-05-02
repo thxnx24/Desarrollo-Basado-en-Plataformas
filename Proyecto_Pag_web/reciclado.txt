@@ -1,0 +1,12 @@
+<nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca</a>
+            <a href="#menu">Menu</a>
+            <a href="#reseñas">Reseñas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+
+
+background-image: linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4)), url(banner.jpg);
+    
