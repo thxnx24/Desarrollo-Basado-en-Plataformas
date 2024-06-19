@@ -1,0 +1,95 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario.MainPage">
+    <ScrollView>
+        <StackLayout Padding="20"
+                     Spacing="10">
+            <!-- Nombre y Apellidos -->
+            <Entry Placeholder="Nombre y Apellidos" />
+            <!-- Fecha de Nacimiento -->
+            <DatePicker />
+            <!-- Ocupación -->
+            <Entry Placeholder="Ocupación" />
+            <!-- Contacto (teléfono, email) -->
+            <Entry Placeholder="Teléfono"
+                   Keyboard="Telephone" />
+            <!-- Contacto (email) -->
+            <Entry Placeholder="Email"
+                   Keyboard="Email" />
+            <!-- Nacionalidad -->
+            <Picker Title="Nacionalidad">
+                <!-- Añade aquí las opciones de nacionalidad -->
+            </Picker>
+            <!-- Nivel de inglés -->
+            <StackLayout Orientation="Vertical">
+                <Label Text="Nivel de inglés:" />
+                <RadioButton GroupName="nivelIngles"
+                             Content="Básico" />
+                <RadioButton GroupName="nivelIngles"
+                             Content="Intermedio" />
+                <RadioButton GroupName="nivelIngles"
+                             Content="Avanzado" />
+                <RadioButton GroupName="nivelIngles"
+                             Content="Fluido" />
+            </StackLayout>
+            <Label Text="Lenguaje de Programación:" />
+            <ListView x:Name="lenguajesListView"
+                      HeightRequest="300"
+                      HasUnevenRows="true">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>C++</x:String>
+                        <x:String>Python</x:String>
+                        <x:String>JavaScript</x:String>
+                        <x:String>CSS</x:String>
+                        <x:String>Java</x:String>
+                        <x:String>Ruby</x:String>
+                        <x:String>C#</x:String>
+                        <x:String>Kotlin</x:String>
+                        <x:String>Rust</x:String>
+                        <x:String>PHP</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+            <Picker x:Name="nacionalidad"
+                    Title="Nacionalidad">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>-- Seleccione su nacionalidad --</x:String>
+                        <x:String>Estadounidense</x:String>
+                        <x:String>Española</x:String>
+                        <x:String>Mexicana</x:String>
+                        <x:String>Peruana</x:String>
+                        <x:String>Chilena</x:String>
+                        <x:String>Boliviana</x:String>
+                        <x:String>Brasileña</x:String>
+                        <x:String>Argentina</x:String>
+                        <x:String>Venezolana</x:String>
+                        <x:String>Ecuatoriana</x:String>
+                        <x:String>Uruguaya</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Entry Placeholder="Aptitudes" />
+            <!-- Habilidades -->
+            <StackLayout Orientation="Vertical">
+                <Label Text="Habilidades:" />
+                <CheckBox x:Name="habilidades1" />
+                <Label Text="Trabajo en equipo" />
+                <CheckBox x:Name="habilidades2" />
+                <Label Text="Comunicación" />
+                <CheckBox x:Name="habilidades3" />
+                <Label Text="Resolución de problemas" />
+                <CheckBox x:Name="habilidades4" />
+                <Label Text="Creatividad" />
+                <CheckBox x:Name="habilidades5" />
+                <Label Text="Liderazgo" />
+            </StackLayout>
+            <!-- Perfil -->
+            <Editor Placeholder="Perfil"
+                    AutoSize="TextChanges" />
+            <Button Text="Enviar"
+                    Clicked="Enviar_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
