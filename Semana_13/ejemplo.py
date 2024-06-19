@@ -1,7 +1,6 @@
 from ariadne import ObjectType, gql, make_executable_schema
 from ariadne.asgi import GraphQL
 
-
 type_defs = gql(
     """
     type Query {
@@ -18,5 +17,8 @@ def resolve_hello(*_):
 
 schema = make_executable_schema(type_defs, query_type)
 
-app =  GraphQL(schema, debug=True)
+app = GraphQL(schema, debug=True)
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

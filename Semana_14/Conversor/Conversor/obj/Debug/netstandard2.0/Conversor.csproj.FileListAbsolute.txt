@@ -1,0 +1,17 @@
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\bin\Debug\netstandard2.0\Conversor.deps.json
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\bin\Debug\netstandard2.0\Conversor.dll
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\bin\Debug\netstandard2.0\ref\Conversor.dll
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\bin\Debug\netstandard2.0\Conversor.pdb
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.csproj.AssemblyReference.cache
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Menuprincipal.xaml.g.cs
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.AssemblyInfoInputs.cache
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.AssemblyInfo.cs
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.csproj.CoreCompileInputs.cache
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.sourcelink.json
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.dll
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\refint\Conversor.dll
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Conversor.pdb
+C:\Users\PC\DBP_PC\Semana_14\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Convertir.xaml.g.cs

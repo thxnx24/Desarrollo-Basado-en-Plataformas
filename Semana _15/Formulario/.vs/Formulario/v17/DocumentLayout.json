@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana _15\\formulario\\formulario\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB0EBD1C-9D9B-4931-A9F9-31E5F943564C}|Formulario\\Formulario.csproj|solutionrelative:formulario\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 133,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CVPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\CVPage.xaml.cs",
+              "RelativeDocumentMoniker": "Formulario\\CVPage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\CVPage.xaml.cs",
+              "RelativeToolTip": "Formulario\\CVPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:39:12.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CVPage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\CVPage.xaml",
+              "RelativeDocumentMoniker": "Formulario\\CVPage.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\CVPage.xaml",
+              "RelativeToolTip": "Formulario\\CVPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T04:35:25.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Formulario\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\App.xaml.cs",
+              "RelativeToolTip": "Formulario\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:21:38.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Formulario\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\AssemblyInfo.cs",
+              "RelativeToolTip": "Formulario\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:21:33.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\App.xaml",
+              "RelativeDocumentMoniker": "Formulario\\App.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\App.xaml",
+              "RelativeToolTip": "Formulario\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T04:21:30.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Formulario\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\MainPage.xaml.cs",
+              "RelativeToolTip": "Formulario\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:10:03.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Formulario\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana _15\\Formulario\\Formulario\\MainPage.xaml",
+              "RelativeToolTip": "Formulario\\MainPage.xaml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T03:57:45.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

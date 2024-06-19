@@ -112,3 +112,7 @@ def graphql_server():
     )
     status_code = 200 if success else 400
     return jsonify(result), status_code
+
+if __name__ == '__main__':
+    # Ejecutar la aplicación Flask
+    app.run(debug=True)

@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\vistas\\convertir.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\vistas\\convertir.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\vistas\\convertir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\vistas\\convertir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\vistas\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\vistas\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\conversor\\conversor\\vistas\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC86A0-5FA2-441B-A5CC-D1D59E386E87}|Conversor\\Conversor.csproj|solutionrelative:conversor\\vistas\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\App.xaml",
+              "RelativeDocumentMoniker": "Conversor\\App.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\App.xaml",
+              "RelativeToolTip": "Conversor\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T03:48:55.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Convertir.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Convertir.xaml.cs",
+              "RelativeDocumentMoniker": "Conversor\\Vistas\\Convertir.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Convertir.xaml.cs",
+              "RelativeToolTip": "Conversor\\Vistas\\Convertir.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T00:14:31.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Convertir.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Convertir.xaml",
+              "RelativeDocumentMoniker": "Conversor\\Vistas\\Convertir.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Convertir.xaml",
+              "RelativeToolTip": "Conversor\\Vistas\\Convertir.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T00:13:27.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menuprincipal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Menuprincipal.xaml.cs",
+              "RelativeDocumentMoniker": "Conversor\\Vistas\\Menuprincipal.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Menuprincipal.xaml.cs",
+              "RelativeToolTip": "Conversor\\Vistas\\Menuprincipal.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T23:38:49.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Conversor\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\App.xaml.cs",
+              "RelativeToolTip": "Conversor\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T23:37:37.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menuprincipal.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Menuprincipal.xaml",
+              "RelativeDocumentMoniker": "Conversor\\Vistas\\Menuprincipal.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Conversor\\Conversor\\Vistas\\Menuprincipal.xaml",
+              "RelativeToolTip": "Conversor\\Vistas\\Menuprincipal.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T23:36:59.197Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

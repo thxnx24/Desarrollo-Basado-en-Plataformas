@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario.MainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <!-- Nombre y Apellidos -->
+                <Label Text="Nombre y Apellidos"
+                       FontSize="Medium" />
+                <Entry x:Name="nombreApellidosEntry"
+                       Placeholder="Ingrese su nombre y apellidos" />
+                <!-- Fecha de Nacimiento -->
+                <Label Text="Fecha de Nacimiento"
+                       FontSize="Medium" />
+                <DatePicker x:Name="fechaNacimientoPicker" />
+                <!-- Ocupación -->
+                <Label Text="Ocupación"
+                       FontSize="Medium" />
+                <Entry x:Name="ocupacionEntry"
+                       Placeholder="Ingrese su ocupación" />
+                <!-- Contacto (teléfono, email) -->
+                <Label Text="Contacto (teléfono, email)"
+                       FontSize="Medium" />
+                <Entry x:Name="contactoEntry"
+                       Placeholder="Ingrese su teléfono o email" />
+                <!-- Nacionalidad -->
+                <Label Text="Nacionalidad"
+                       FontSize="Medium" />
+                <Picker x:Name="nacionalidadPicker">
+                    <Picker.Items>
+                        <x:String>Argentina</x:String>
+                        <x:String>Bolivia</x:String>
+                        <x:String>Chile</x:String>
+                        <x:String>Colombia</x:String>
+                        <x:String>Ecuador</x:String>
+                        <x:String>España</x:String>
+                        <x:String>México</x:String>
+                        <x:String>Perú</x:String>
+                        <x:String>Venezuela</x:String>
+                    </Picker.Items>
+                </Picker>
+                <!-- Nivel de inglés -->
+                <Label Text="Nivel de inglés"
+                       FontSize="Medium" />
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton x:Name="basicoRadioButton"
+                                 Content="Básico"
+                                 GroupName="NivelIngles" />
+                    <RadioButton x:Name="intermedioRadioButton"
+                                 Content="Intermedio"
+                                 GroupName="NivelIngles" />
+                    <RadioButton x:Name="avanzadoRadioButton"
+                                 Content="Avanzado"
+                                 GroupName="NivelIngles" />
+                    <RadioButton x:Name="fluidoRadioButton"
+                                 Content="Fluido"
+                                 GroupName="NivelIngles" />
+                </StackLayout>
+                <!-- Lenguajes de programación -->
+                <Label Text="Lenguajes de programación"
+                       FontSize="Medium" />
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="lenguajeCsharpCheckBox" />
+                        <Label Text="C#"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="lenguajeJavaCheckBox" />
+                        <Label Text="Java"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="lenguajePythonCheckBox" />
+                        <Label Text="Python"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="lenguajeJavaScriptCheckBox" />
+                        <Label Text="JavaScript"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <!-- Aptitudes -->
+                <Label Text="Aptitudes"
+                       FontSize="Medium" />
+                <Entry x:Name="aptitudesEntry"
+                       Placeholder="Ingrese una aptitud" />
+                <ListView x:Name="aptitudesListView"
+                          HeightRequest="100">
+                    <!-- Aquí puedes agregar elementos a la lista -->
+                </ListView>
+                <!-- Habilidades -->
+                <Label Text="Habilidades"
+                       FontSize="Medium" />
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="habilidadComunicacionCheckBox" />
+                        <Label Text="Comunicación"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="habilidadTrabajoEquipoCheckBox" />
+                        <Label Text="Trabajo en equipo"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="habilidadLiderazgoCheckBox" />
+                        <Label Text="Liderazgo"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="habilidadCreatividadCheckBox" />
+                        <Label Text="Creatividad"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <!-- Perfil -->
+                <Label Text="Perfil"
+                       FontSize="Medium" />
+                <Editor x:Name="perfilEditor"
+                        Placeholder="Escriba un breve perfil"
+                        HeightRequest="100" />
+                <!-- Botón para Enviar -->
+                <Button Text="Enviar"
+                        Clicked="OnEnviarClicked" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

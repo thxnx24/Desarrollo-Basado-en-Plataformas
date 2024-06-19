@@ -1,0 +1,35 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario.CVPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Nombre y Apellidos:"
+                   FontSize="Medium" />
+            <Label x:Name="nombreLabel" />
+            <Label Text="Fecha de Nacimiento:"
+                   FontSize="Medium" />
+            <Label x:Name="fechaNacimientoLabel" />
+            <Label Text="Ocupación:"
+                   FontSize="Medium" />
+            <Label x:Name="ocupacionLabel" />
+            <Label Text="Contacto (teléfono, email):"
+                   FontSize="Medium" />
+            <Label x:Name="contactoLabel" />
+            <Label Text="Nacionalidad:"
+                   FontSize="Medium" />
+            <Label x:Name="nacionalidadLabel" />
+            <Label Text="Nivel de inglés:"
+                   FontSize="Medium" />
+            <Label x:Name="nivelInglesLabel" />
+            <Label Text="Lenguajes de programación:"
+                   FontSize="Medium" />
+            <Label x:Name="lenguajesProgramacionLabel" />
+            <Label Text="Habilidades:"
+                   FontSize="Medium" />
+            <Label x:Name="habilidadesLabel" />
+            <Label Text="Perfil:"
+                   FontSize="Medium" />
+            <Label x:Name="perfilLabel" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
