@@ -4,22 +4,20 @@
     <ScrollView>
         <StackLayout Padding="20"
                      Spacing="10">
-            <!-- Nombre y Apellidos -->
-            <Entry Placeholder="Nombre y Apellidos" />
-            <!-- Fecha de Nacimiento -->
-            <DatePicker />
-            <!-- Ocupación -->
-            <Entry Placeholder="Ocupación" />
-            <!-- Contacto (teléfono, email) -->
-            <Entry Placeholder="Teléfono"
+            <Entry x:Name="nombreEntry"
+                   Placeholder="Nombre y Apellidos" />
+            <DatePicker x:Name="fechaNacimientoPicker" />
+            <Entry x:Name="direccionEntry"
+                   Placeholder="Dirección" />
+            <Entry x:Name="ocupacionEntry" 
+                   Placeholder="Ocupación" />
+            <Entry x:Name="telefonoEntry"
+                   Placeholder="Teléfono"
                    Keyboard="Telephone" />
-            <!-- Contacto (email) -->
-            <Entry Placeholder="Email"
+            <Entry x:Name="emailEntry"
+                   Placeholder="Email"
                    Keyboard="Email" />
-            <!-- Nacionalidad -->
-            <Picker Title="Nacionalidad">
-                <!-- Añade aquí las opciones de nacionalidad -->
-            </Picker>
+            
             <!-- Nivel de inglés -->
             <StackLayout Orientation="Vertical">
                 <Label Text="Nivel de inglés:" />
@@ -51,7 +49,7 @@
                     </x:Array>
                 </ListView.ItemsSource>
             </ListView>
-            <Picker x:Name="nacionalidad"
+            <Picker x:Name="nacionalidadPicker"
                     Title="Nacionalidad">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
@@ -70,8 +68,8 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Entry Placeholder="Aptitudes" />
-            <!-- Habilidades -->
+            <Entry x:Name="aptitudesEntry"
+                   Placeholder="Aptitudes" />
             <StackLayout Orientation="Vertical">
                 <Label Text="Habilidades:" />
                 <CheckBox x:Name="habilidades1" />
@@ -86,7 +84,8 @@
                 <Label Text="Liderazgo" />
             </StackLayout>
             <!-- Perfil -->
-            <Editor Placeholder="Perfil"
+            <Editor x:Name="perfilEditor"
+                    Placeholder="Perfil"
                     AutoSize="TextChanges" />
             <Button Text="Enviar"
                     Clicked="Enviar_Clicked" />

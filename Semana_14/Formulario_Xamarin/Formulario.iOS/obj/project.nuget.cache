@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2l2ev+f5Jw=",
+  "dgSpecHash": "oij6XMcebBQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.iOS\\Formulario.iOS.csproj",
+  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.iOS\\Formulario.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

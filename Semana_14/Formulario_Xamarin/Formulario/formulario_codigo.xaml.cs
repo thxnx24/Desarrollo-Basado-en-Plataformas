@@ -46,11 +46,24 @@ namespace Formulario
         }
         private async void Enviar_Clicked(object sender, EventArgs e)
         {
-            // Aquí va tu lógica para procesar los datos del formulario
-            // Por ejemplo, validar los datos y enviarlos a un servidor o base de datos
+            // Verificar si los campos están rellenados
+            if (string.IsNullOrWhiteSpace(nombreEntry.Text) ||
+                fechaNacimientoPicker.Date == null ||
+                string.IsNullOrWhiteSpace(ocupacionEntry.Text) ||
+                string.IsNullOrWhiteSpace(telefonoEntry.Text) ||
+                string.IsNullOrWhiteSpace(emailEntry.Text) ||
+                nacionalidadPicker.SelectedIndex == -1 || // Verifica si se ha seleccionado una nacionalidad
+                string.IsNullOrWhiteSpace(aptitudesEntry.Text) ||
+                string.IsNullOrWhiteSpace(perfilEditor.Text))
+            {
+                // Mostrar un mensaje al usuario indicando que todos los campos son requeridos
+                await DisplayAlert("Validación", "Por favor, rellena todos los campos requeridos.", "OK");
+                return; // Detener la ejecución si hay campos vacíos
+            }
 
-            // Muestra un mensaje de confirmación (opcional)
-            await DisplayAlert("Confirmación", "Formulario enviado con éxito", "OK");
+            // Si todos los campos están rellenados, continúa con el procesamiento de los datos
+            // Aquí va tu lógica para procesar y enviar los datos del formulario
+            await DisplayAlert("Éxito", "Formulario enviado correctamente.", "OK");
         }
 
     }

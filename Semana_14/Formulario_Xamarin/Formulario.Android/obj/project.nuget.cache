@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bQFdkQGMTn4=",
+  "dgSpecHash": "pFm/N92Om40=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.Android\\Formulario.Android.csproj",
+  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.Android\\Formulario.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
