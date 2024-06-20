@@ -1,0 +1,6 @@
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\build.props
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\adb.props
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\Tiktokcurso.Android.csproj.AssemblyReference.cache
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\anthony\DBP_laptop\Proyecto_Final\Tiktok_replica_trabajo\Tiktokcurso.Android\obj\Debug\120\res.flag
