@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEka4hH2mJo=",
+  "dgSpecHash": "7qhBGf2KDBY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery.UWP\\Delivery.UWP.csproj",
+  "projectFilePath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery.UWP\\Delivery.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

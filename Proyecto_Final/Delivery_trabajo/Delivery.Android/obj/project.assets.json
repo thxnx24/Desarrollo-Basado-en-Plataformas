@@ -3551,11 +3551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery.Android\\Delivery.Android.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery.Android\\Delivery.Android.csproj",
       "projectName": "Delivery.Android",
-      "projectPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery.Android\\Delivery.Android.csproj",
+      "projectPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery.Android\\Delivery.Android.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery.Android\\obj\\",
+      "outputPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3576,8 +3576,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Delivery.csproj": {
-              "projectPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Delivery.csproj"
+            "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery\\Delivery.csproj": {
+              "projectPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery_trabajo\\Delivery\\Delivery.csproj"
             }
           }
         }
