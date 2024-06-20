@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|c:\\users\\pc\\dbp_pc\\proyecto_final\\delivery-main\\delivery\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|solutionrelative:delivery\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|c:\\users\\pc\\dbp_pc\\proyecto_final\\delivery-main\\delivery\\modelo\\mcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|solutionrelative:delivery\\modelo\\mcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|c:\\users\\pc\\dbp_pc\\proyecto_final\\delivery-main\\delivery\\modelo\\mplatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|solutionrelative:delivery\\modelo\\mplatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|c:\\users\\pc\\dbp_pc\\proyecto_final\\delivery-main\\delivery\\vistamodelo\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|solutionrelative:delivery\\vistamodelo\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|c:\\users\\pc\\dbp_pc\\proyecto_final\\delivery-main\\delivery\\datos\\dcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A333B8-1F2A-4830-BFF5-EE34F072B452}|Delivery\\Delivery.csproj|solutionrelative:delivery\\datos\\dcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mcategorias.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Modelo\\Mcategorias.cs",
+              "RelativeDocumentMoniker": "Delivery\\Modelo\\Mcategorias.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Modelo\\Mcategorias.cs",
+              "RelativeToolTip": "Delivery\\Modelo\\Mcategorias.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIBBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:23:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mplatos.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Modelo\\Mplatos.cs",
+              "RelativeDocumentMoniker": "Delivery\\Modelo\\Mplatos.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Modelo\\Mplatos.cs",
+              "RelativeToolTip": "Delivery\\Modelo\\Mplatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:23:46.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\VistaModelo\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Delivery\\VistaModelo\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\VistaModelo\\BaseViewModel.cs",
+              "RelativeToolTip": "Delivery\\VistaModelo\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:16:55.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dcategorias.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Datos\\Dcategorias.cs",
+              "RelativeDocumentMoniker": "Delivery\\Datos\\Dcategorias.cs",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\Datos\\Dcategorias.cs",
+              "RelativeToolTip": "Delivery\\Datos\\Dcategorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:08:21.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\App.xaml",
+              "RelativeDocumentMoniker": "Delivery\\App.xaml",
+              "ToolTip": "C:\\Users\\PC\\DBP_PC\\Proyecto_Final\\Delivery-main\\Delivery\\App.xaml",
+              "RelativeToolTip": "Delivery\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T02:07:44.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
