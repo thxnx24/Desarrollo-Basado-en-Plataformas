@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.Android\\Formulario.Android.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.Android\\Formulario.Android.csproj",
       "projectName": "Formulario.Android",
-      "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.Android\\Formulario.Android.csproj",
+      "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.Android\\Formulario.Android.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.Android\\obj\\",
+      "outputPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario\\Formulario.csproj": {
-              "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario\\Formulario.csproj"
+            "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\Formulario.csproj": {
+              "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\Formulario.csproj"
             }
           }
         }

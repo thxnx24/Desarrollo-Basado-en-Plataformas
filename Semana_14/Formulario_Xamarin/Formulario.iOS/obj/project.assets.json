@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.iOS\\Formulario.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.iOS\\Formulario.iOS.csproj",
       "projectName": "Formulario.iOS",
-      "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.iOS\\Formulario.iOS.csproj",
+      "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.iOS\\Formulario.iOS.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario.iOS\\obj\\",
+      "outputPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1278,8 +1278,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario\\Formulario.csproj": {
-              "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario\\Formulario\\Formulario.csproj"
+            "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\Formulario.csproj": {
+              "projectPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\Formulario.csproj"
             }
           }
         }
