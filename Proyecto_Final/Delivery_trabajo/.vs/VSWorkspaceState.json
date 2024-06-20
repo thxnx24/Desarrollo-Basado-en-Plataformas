@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Delivery"
   ],
-  "SelectedNode": "\\Delivery.sln",
+  "SelectedNode": "\\Delivery\\App.xaml",
   "PreviewInSolutionExplorer": false
 }
