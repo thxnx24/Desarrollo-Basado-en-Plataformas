@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\formulario_xamarin\\formulario\\formulario_codigo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|solutionrelative:formulario\\formulario_codigo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\formulario_xamarin\\formulario\\formulario_codigo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|solutionrelative:formulario\\formulario_codigo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|c:\\users\\pc\\dbp_pc\\semana_14\\formulario_xamarin\\formulario\\formulario_codigo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF9B3A-885D-4398-8A2D-4A58BF8E7F04}|Formulario\\Formulario.csproj|solutionrelative:formulario\\formulario_codigo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "formulario_codigo.xaml",
               "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\formulario_codigo.xaml",
               "RelativeDocumentMoniker": "Formulario\\formulario_codigo.xaml",
               "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\formulario_codigo.xaml",
               "RelativeToolTip": "Formulario\\formulario_codigo.xaml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEwAAAAyAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-25T15:29:11.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "formulario_codigo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\formulario_codigo.xaml.cs",
               "RelativeDocumentMoniker": "Formulario\\formulario_codigo.xaml.cs",
               "ToolTip": "C:\\Users\\PC\\DBP_PC\\Semana_14\\Formulario_Xamarin\\Formulario\\formulario_codigo.xaml.cs",
               "RelativeToolTip": "Formulario\\formulario_codigo.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA9AAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T15:20:04.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T15:20:04.353Z"
             }
           ]
         }
