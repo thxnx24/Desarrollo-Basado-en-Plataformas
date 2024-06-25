@@ -41,8 +41,6 @@ namespace Formulario
             var checkBox = sender as CheckBox;
             if (checkBox == null) return;
 
-            // Aquí puedes manejar la lógica basada en el estado de la casilla de verificación
-            // Por ejemplo, agregar o quitar la habilidad de una lista de habilidades seleccionadas
         }
         private async void Enviar_Clicked(object sender, EventArgs e)
         {
@@ -52,17 +50,15 @@ namespace Formulario
                 string.IsNullOrWhiteSpace(ocupacionEntry.Text) ||
                 string.IsNullOrWhiteSpace(telefonoEntry.Text) ||
                 string.IsNullOrWhiteSpace(emailEntry.Text) ||
-                nacionalidadPicker.SelectedIndex == -1 || // Verifica si se ha seleccionado una nacionalidad
+                nacionalidadPicker.SelectedIndex == -1 ||
                 string.IsNullOrWhiteSpace(aptitudesEntry.Text) ||
                 string.IsNullOrWhiteSpace(perfilEditor.Text))
             {
-                // Mostrar un mensaje al usuario indicando que todos los campos son requeridos
+                
                 await DisplayAlert("Validación", "Por favor, rellena todos los campos requeridos.", "OK");
-                return; // Detener la ejecución si hay campos vacíos
+                return; 
             }
 
-            // Si todos los campos están rellenados, continúa con el procesamiento de los datos
-            // Aquí va tu lógica para procesar y enviar los datos del formulario
             await DisplayAlert("Éxito", "Formulario enviado correctamente.", "OK");
         }
 

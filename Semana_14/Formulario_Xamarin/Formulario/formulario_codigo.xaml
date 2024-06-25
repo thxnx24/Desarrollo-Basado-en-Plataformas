@@ -18,7 +18,6 @@
                    Placeholder="Email"
                    Keyboard="Email" />
             
-            <!-- Nivel de inglés -->
             <StackLayout Orientation="Vertical">
                 <Label Text="Nivel de inglés:" />
                 <RadioButton GroupName="nivelIngles"
@@ -72,7 +71,6 @@
                    Placeholder="Aptitudes" />
             <StackLayout Orientation="Vertical">
                 <Label Text="Habilidades:" />
-                <CheckBox x:Name="habilidades1" />
                 <Label Text="Trabajo en equipo" />
                 <CheckBox x:Name="habilidades2" />
                 <Label Text="Comunicación" />
@@ -82,8 +80,8 @@
                 <Label Text="Creatividad" />
                 <CheckBox x:Name="habilidades5" />
                 <Label Text="Liderazgo" />
+                <CheckBox x:Name="habilidades6" />
             </StackLayout>
-            <!-- Perfil -->
             <Editor x:Name="perfilEditor"
                     Placeholder="Perfil"
                     AutoSize="TextChanges" />
